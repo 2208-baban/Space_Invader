@@ -16,7 +16,11 @@
 	</natures>
 	<filteredResources>
 		<filter>
+<<<<<<< HEAD
 			<id>1671689574237</id>
+=======
+			<id>1671606369653</id>
+>>>>>>> refs/heads/develop
 			<name></name>
 			<type>30</type>
 			<matcher>

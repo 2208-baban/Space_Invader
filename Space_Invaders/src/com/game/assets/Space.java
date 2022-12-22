@@ -1,8 +1,13 @@
 package com.game.assets;
 
+<<<<<<< HEAD
 import java.io.IOException;
+=======
+import java.util.Scanner;
+>>>>>>> refs/heads/develop
 
 public class Space {
+<<<<<<< HEAD
 	Integer WIDTH, HEIGHT;
 
 	public static void render(String name) {
@@ -37,6 +42,30 @@ public class Space {
 	void display() {
 
 	}
+=======
+  		public Integer WIDTH,HEIGHT;
+  		public String arr[][];
+		Player player=new Player();
+		Enemy enemy=new Enemy() {};
+  		//public Integer x,y;
+  	//	public Integer a,b;
+  		//public Integer score;
+	public Space(Integer Width,Integer Height){
+		WIDTH=Width;
+		HEIGHT=Height;
+		arr= new String [WIDTH][HEIGHT];
+
+	}
+	
+	public void render() throws InterruptedException {
+			enemy.move(arr, WIDTH, HEIGHT);
+			player.move(arr, WIDTH, HEIGHT);
+}
+		  
+	public void display() {
+	
+		}
+>>>>>>> refs/heads/develop
 
 	public Integer getWIDTH() {
 		return WIDTH;

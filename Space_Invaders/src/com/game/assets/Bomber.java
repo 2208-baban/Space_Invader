@@ -12,7 +12,11 @@ public class Bomber extends Enemy{
 	}
 
 	@Override
+<<<<<<< HEAD
 	protected void move() {
+=======
+	public void move() {
+>>>>>>> refs/heads/develop
 		// TODO Auto-generated method stub
 		super.move();
 	}
