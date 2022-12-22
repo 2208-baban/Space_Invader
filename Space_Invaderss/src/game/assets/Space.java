@@ -92,6 +92,21 @@ public class Space {
 				}
 				System.out.println();
 			}
+			Integer f=0;
+			for (int x = 0; x < WIDTH; x++) {
+				for (int y = 0; y < HEIGHT; y++) {
+					if(arr[x][y]=="S"||arr[x][y]=="B") {
+						f=1;
+						break;
+					}
+						
+				}
+				
+			}
+			if(f==0) {
+				System.out.println("YOU WON");
+				return;
+			}
 			
 		}
 		}
