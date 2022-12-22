@@ -1,9 +1,9 @@
 package com.game.application;
 
 
-import com.game.assets.Asteroid;
+//import com.game.assets.Asteroid;
 
-//import com.game.assets.*;
+import com.game.assets.*;
 
 public class SpaceInvader {
 
