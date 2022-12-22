@@ -4,7 +4,7 @@ public class Avatar {
 	String NAME;
 	Integer WIDTH,HEIGHT,DAMAGE,LIFE;
 	
-	public Avatar(Integer WIDTH,Integer HEIGHT,Integer DAMAGE,String NAME){
+	public Avatar(Integer WIDTH,Integer HEIGHT){
 		this.DAMAGE=DAMAGE;
 		this.HEIGHT=HEIGHT;
 		this.NAME=NAME;

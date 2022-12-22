@@ -4,8 +4,8 @@ public class Asteroid extends Enemy {
 	Avatar AV;
 	String name;
 	public Asteroid(Integer WIDTH,Integer HEIGHT,Integer DAMAGE,String NAME){
-		AV=new Avatar( WIDTH, HEIGHT, DAMAGE, NAME);
-		name=NAME;
+		AV=new Avatar( WIDTH, HEIGHT);
+		//name=NAME;
 	}
 	@Override
 	protected void hit() {
@@ -18,7 +18,7 @@ public class Asteroid extends Enemy {
 		// TODO Auto-generated method stub
 		super.move();
 	}
-	public void display(){
+	public void display() throws InterruptedException{
 		Space space=new Space(50, 20);
 		space.render();
 		AV.display();

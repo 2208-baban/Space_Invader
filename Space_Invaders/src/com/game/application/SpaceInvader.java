@@ -7,7 +7,7 @@ import com.game.assets.*;
 
 public class SpaceInvader {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		//Asteroid a=new Asteroid(12, 12, 20, "A1") ;
 		//Player player=new Player(12, 12, "P1");
@@ -18,7 +18,5 @@ public class SpaceInvader {
 		Space space=new Space(20,50);
 		space.display();
 		space.render();
-		
-
 }
 }
