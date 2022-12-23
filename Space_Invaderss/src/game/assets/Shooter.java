@@ -13,10 +13,27 @@ public class Shooter extends Enemy{
 	}
 
 	@Override
-	public void move() {
+		protected void move(Integer w,Integer h,String arr[][]) {
+		//	super.move(w, h, arr);
 		// TODO Auto-generated method stub
 		super.move();
-	}
+		for(int x=0;x<w;x++) {
+			for(int y=0;y<h;y++) {
+				
+				if(x==2 && y>8 && y<15)
+				{
+					arr[x][y]="S";
+				}
+
+				else if(x==4 && y>9 && y<16)
+				{
+					arr[x][y]="S";
+				}
+
+				}	
+			}
+		}
+
 	void fire() {
 		
 	}
