@@ -12,7 +12,7 @@ public class Bullet {
 	String display() {
 		System.out.print("\nFire: ");
 
-	//	char move;
+		// char move;
 
 //		Scanner sc = new Scanner(System.in);
 //
@@ -25,8 +25,6 @@ public class Bullet {
 		System.out.println();
 		return "|";
 	}
-
-	
 
 	public Integer getX() {
 		return x;

@@ -41,11 +41,20 @@ public class Space {
 				}
 				shooter.move(WIDTH, HEIGHT, arr);
 				bomber.move(WIDTH, HEIGHT, arr);
-				asteroid.move(WIDTH, HEIGHT, arr);	
+				asteroid.move(WIDTH, HEIGHT, arr);
 			}
 		}
 			enemy.move(arr, WIDTH, HEIGHT);
-			player.move(arr, WIDTH, HEIGHT);
+		//		
+			try {
+				player.move(arr, WIDTH, HEIGHT);
+			} catch (Exception e) {
+				// TODO: handle exception
+				System.out.println("Game Over.");
+				return;
+			}
+			
+			
 			
 		
 		}
